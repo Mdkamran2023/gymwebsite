@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phn.css">
+</head>
+
+<body>
+  <div class="topper">
+    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+    <button class="tablink" onclick="openPage('RegisterHere', this, 'white')">Register Here</button>
+    <!-- <button class="tablink" onclick="openPage('News', this, 'green')">News</button> -->
+    <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact Us</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+  </div>
+  <div id="Home" class="tabcontent">
+
+    <section id="home1">
+      <h1 class="h-primary"> Welcome to FitPunks</h1>
+      <p>
+        <bold> “There’s no secret formula. lift heavy, work hard, and aim to be the best.” </bold>
+      </p>
+      <p>
+        <bold> “We run for the people who think they cant.” </bold>
+      </p>
+      <!-- <button class="btn"> Register Now</button> -->
+
+    </section>
+    <section class="services-container">
+      <h1 class="h-primary center"> Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="Personal-Training1.jpg" alt="">
+          <h2 class="h-secondary center"> Personal Training </h2>
+          <p class="para">
+            We have Professionally Certified and Qualified Personal Trainers who can pay Special Attention to an
+            individuals’ need and expectation </p>
+        </div>
+        <div class="box">
+          <img src="trained.jpg" alt="">
+          <h2 class="h-secondary center"> Weight Training </h2>
+          <p class="para">
+            Weight Training exercises help you strengthen and tone-up your muscles, keep you in shape and improve your
+            posture.
+            This section has ample state of the art improved single stations gyms coupled with host of additional free
+            weights and the most needed guidance to help you out.</p>
+        </div>
+
+        <div class="box">
+          <img src="lockers.jpg " height="55px" width=" 230px" alt="">
+          <h2 class="h-secondary center"> Personal Lockers </h2>
+          <p class="para">Lockers are available to keep your personal belonging’s safe while you unwind and workout to
+            re-energize
+            yourself. As needed, clean and fresh towels are also provided.
+            With the help and guidance of our Expert Team of Trainers and Nutritionists, we provide complimentary Diet
+            Counseling sessions to all our customers in order to help them achieve their desired results.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer4">
+      <div class="center">
+          Copyright &copy; www.Fitpunks.com. All rights reserved!
+      </div>
+  </footer>
+  </div>
+
+  <div id="RegisterHere" class="tabcontent">
+
+    <!-- <h1>REGISTER HERE</h1> -->
+
+    <h1>Join the best gym of Delhi now</h1>
+
+
+    <form action="" method="post">
+      <table id="table" border="0" cellpadding="10" cellspacing="5" align="centre" bordercolor="white" float="Left"
+        width="25%">
+
+
+        <tr>
+          <td> Name </td>
+          <td> <input type="text" name="textname" size="25" maxlength="45" placeholder="Enter name">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td> <input type="radio" name="gender" value="M">Male
+            <input type="radio" name="gender" value="F">Female
+            <input type="radio" name="gender" value="T">Trans
+          </td>
+        </tr>
+        <tr>
+          <td>
+            ADDRESS</td>
+          <td>
+            <textarea rows=7 cols=7 placeholder="enter address"> </textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td> Hobbies</td>
+          <td>
+            <input type="checkbox" name="chk1" value="singing">Singing
+          </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td>
+            <input type="checkbox" name="chk4" value="Body Building">Body Building
+          </td>
+
+        <tr>
+          <td> </td>
+          <td>
+            <input type="checkbox" name="chk3" value="dancing">Dancing
+          </td>
+
+        </tr>
+        <tr>
+          <td>Proof ID</td>
+          <td><select name="Proof ID">
+              <option value="Adhaar Card"> Adhaar Card</option>
+              <option value="PAN CARD"> PAN CARD</option>
+              <option value="DRIVING LICENSE"> DRIVING LICENSE</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>SUBSCRIPTION</td>
+          <td><select name="Proof ID">
+              <option value="Adhaar Card"> 1 MONTH @ 399</option>
+              <option value="PAN CARD"> 2 MONTH @ 699 </option>
+              <option value="DRIVING LICENSE"> 3 MONTH @ 899</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>PASSWORD
+          </td>
+          <td>
+            <input type="password" name="password" size="10" maxlength="29" placeholder="Enter password">
+          </td>
+        </tr>
+        <tr>
+          <td colspan=2><input type="submit" class="btn" name="bt1" value="REGISTER">
+            <input type="Reset" name="bt2" class="btn" value="Clear">
+          </td>
+        </tr>
+
+
+
+
+      </table>
+
+    </form>
+    <footer class="footer3">
+      <div class="center">
+          Copyright &copy; www.Fitpunks.com. All rights reserved!
+      </div>
+  </footer>
+  </div>
+
+  
+
+  <div id="Contact" class="tabcontent">
+
+    <section id="contact">
+      <h1 class="h-primary center">Contact Us</h1>
+      <div id="contactus">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" name="name" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number: </label>
+            <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+          </div>
+          <div class="form-group">
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <!-- <div class="BUTTTON">
+            <input type="submit" class="btn9" name="bt5" value="SUBMIT">
+
+          </div> -->
+        </form>
+      </div>
+    </section>
+
+    <div class="BUTTTON">
+      <input type="submit" class="btn9" name="bt5" value="SUBMIT">
+
+    </div>
+    <footer class="footer2">
+      <div class="center">
+          Copyright &copy; www.Fitpunks.com. All rights reserved!
+      </div>
+  </footer>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <div class="buisness" id="about1">
+      <h2 style="color:burlywood"> THE COMPANY & ITS ORIGIN:</h2>
+      <p style="color:rgb(16, 176, 187)" style="font-size: 28px;">MBS GYMKHANA LTD. is a Company incorporated under The
+        Companies Act 1956 on 23.01.2008 with the main objective
+        to establish natural house centers for building positive health (physical, moral, social and spiritual), through
+        setting up a chain of high end Gymnasium and Spa Centres for self–development, under the brand name FITPUNKS at
+        various other locations in Jaipur, Delhi and NCR. </p>
+    </div>
+    <div class="business" id="about2">
+      <h2 style="color:burlywood"> MARKET POTENTIAL:</h2>
+      <p style="color:rgb(16, 176, 187)" style="font-size: 28px;"> The core population of India lies in the age group of
+        20 to 45. With the increase in the number of educated
+        young professionals who are not only capable of maintaining a good standard of living but are also health
+        conscious, and are catching up with the habit of joining health and fitness centers. There is a huge scope for
+        this business in the Delhi, NCR region for at least next two decades. Through its fifteen operating centers and
+        five others in pipeline, the Company already has a strong customer base of near 10,000 members within Delhi and
+        around. Thus, the Company has carved a niche for itself into retail services segment.</p>
+    </div>
+    <footer class="footer1">
+      <div class="center">
+          Copyright &copy; www.Fitpunks.com. All rights reserved!
+      </div>
+  </footer>
+  </div>
+
+  <script type="text/javaScript">
+        function openPage(pageName, elmnt, color) {
+          // Hide all elements with class="tabcontent" by default */
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) 
+          {
+            tabcontent[i].style.display = "none";
+          }
+
+      // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</body>
+
+</html>
