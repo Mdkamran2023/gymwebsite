@@ -1,0 +1,246 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: rgb(243, 240, 235);
+  color: rgb(67, 21, 141);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 0px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: rgb(193, 216, 224);
+  box-shadow: 0px 0px 6px 4px black;
+  border-radius: 20px;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+
+#home1 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#home1::before {
+  content: "";
+  position: absolute;
+  background: url('images/front_page.jpg') no-repeat center center/cover;
+  /* opacity :0.4; */
+  top: 0px;
+  left: 0px;
+
+  height: 600px;
+  width: 100%;
+  z-index: -5;
+  opacity: 0.7;
+  font-family: 'Pacifico', cursive;
+}
+
+.h-primary {
+  font-size: 3.9rem;
+  padding: 12px;
+
+}
+
+.h-secondary {
+  font-size: 2.3rem;
+  padding: 12px;
+}
+
+.center {
+  text-align: center;
+}
+
+#home1 h1 {
+  color: rgba(65, 1, 1, 0.836);
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-top: -80px;
+
+}
+
+#home1 p {
+  color: rgb(9, 244, 252);
+  font-size: 30px;
+}
+
+ .btn {
+  padding: 6px 8px;
+  border: 2px groove white;
+  background-color: rgb(179, 174, 147);
+  color: rgb(29, 28, 28);
+  margin: 20px;
+  font-size: 1.0rem;
+  border-radius: 10px;
+  cursor: pointer; 
+} 
+
+#services {
+  margin: 34px;
+  display: flex;
+}
+
+#services .box {
+  border: 5px groove rgba(238, 206, 164, 0.616);
+  padding: 34px;
+  margin: 3px 6px;
+  border-radius: 30px;
+  background: #f2f2f2;
+}
+
+#services .box img {
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+.footer4{
+  background: black;
+  color: white;
+  padding: 9px 25px;
+  
+}
+
+#services {
+  display: flex;
+
+}
+
+
+
+
+                               /* register here content */
+.bg
+{
+  float: right;
+
+}
+#RegisterHere {
+
+  background-image: url('images/register_page.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+.topper {
+  text-align: center;
+  margin-left: 200px;
+  position: sticky;
+     display:flex;
+}
+
+#table {
+  background-color: rgb(166, 167, 156);
+  border-radius: 30px;
+ 
+  border:10px solid rgb(72, 73, 73);
+  border-width:10px 10px 10px 0px;
+}
+.footer3{
+  background: black;
+  color: white;
+  padding: 9px 25px;
+  margin-top:25px;
+}
+
+
+
+
+
+
+/* contact details */
+#Contact {
+  /* background-color: rgb(163, 163, 182); */
+  background: url('images/macbook_mouse.jpg') ;
+  /* no-repeat center center/contain; */
+  background-position: center;
+  background-size: cover;
+
+}
+
+#contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+}
+
+#contactus input,
+#contactus textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+
+#contactus form {
+  width: 40%;
+}
+
+#contactus label {
+  font-size: 1.3rem;
+  font-family: 'Bree Serif', serif;
+
+}
+.btn9 {
+  padding: 6px 12px;
+  border: 2px groove white;
+  background-color: rgb(179, 174, 147);
+  color: rgb(29, 28, 28);
+  margin: 0px 900px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer2{
+  background: black;
+  color: white;
+  padding: 9px 25px;
+  margin-top:80px;
+}
+
+
+/* about */
+#About {
+
+  background: url('images/gymfun.jpg')  no-repeat center center/cover;
+  height: 700px;
+}
+.footer1{
+  background: black;
+  color: white;
+  padding: 9px 25px;
+  /* margin-top:500px; */
+}
+#about1,#about2
+{
+  color:darkgoldenrod;
+  font-family: cursive;
+    font-size: 20px;
+}

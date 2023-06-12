@@ -1,0 +1,51 @@
+#home1{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+body{
+    margin-top: 0px;
+}
+
+#home1::before{
+    height: 480px; 
+}
+
+#home1 p{
+    font-size: 13px;
+}
+
+.topper {
+    flex-direction: column;
+}
+
+
+
+
+@media screen and (max-width:765px) {
+    #services {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    #contact{
+        background-image: url("images/macbook_mouse.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 0px;
+    }
+
+    .topper{
+      display:flex;
+      flex-direction: row;
+      margin-left: 0px;
+    }
+
+    #home1{
+        margin-top: -35px;
+    }
+
+   
+    
+}
