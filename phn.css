@@ -19,7 +19,12 @@ body{
     flex-direction: column;
 }
 
-
+@media screen and (max-width:765px) {
+    #table{
+        height:fit-content;
+        width: fit-content;
+    }
+}
 
 
 @media screen and (max-width:765px) {
